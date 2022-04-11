@@ -3,6 +3,10 @@ body {
     color: #292929;
 }
 
+.container {
+    padding: 0;
+}
+
 .logo {
     max-width: 80%;
 }
@@ -17,10 +21,6 @@ nav {
 
 .navbar-toggler {
     float: right;
-}
-
-.col {
-    padding: 0;
 }
 
 h2 {
