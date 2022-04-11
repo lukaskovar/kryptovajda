@@ -1,0 +1,190 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #292929;
+}
+
+.logo {
+    max-width: 80%;
+}
+
+nav {
+    font-size: 1.2rem;
+}
+
+.navbar-light .navbar-brand, .navbar-light .navbar-nav .nav-link {
+    color: #EBA341;
+}
+
+.navbar-toggler {
+    float: right;
+}
+
+h2 {
+    color: #EBA341;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+.custom-heading {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+p {
+    text-align: justify;
+    text-justify: inter-word;
+    text-indent: 2em;
+    padding: 0;
+    margin: 0 0 20px 0;
+}
+
+.white-text {
+    color: white;
+}
+
+.center-alignment {
+    text-align: center;
+}
+
+.about-us {
+    background-color: #EBA341;
+    padding: 20px;
+    border-radius: 20px;
+    margin: auto;
+}
+
+.custom-btn {
+    border: solid #EBA341 2px;
+    color: #EBA341;
+    font-size: 1rem;
+    padding: 15px 35px;
+}
+
+.more-info-btn {
+    position: relative;
+    top: -50px;
+}
+
+.custom-btn:hover {
+    color: white;
+    background-color: #EBA341;
+    border: solid #EBA341 2px;
+}
+
+@media (min-width: 576px) {
+
+    .about-us {
+        max-width: 70%;
+        position: relative;
+        top: calc(-50% + 30px);
+    }
+
+    .how-it-works p:last-of-type {
+        margin-bottom: 0;
+    }
+
+    .left-col {
+        border-right: solid #EBA341 1px;
+        padding-right: 60px;
+    }
+
+    .right-col {
+        border-left: solid #EBA341 1px;
+        padding-left: 60px;
+    }
+
+    .left-img {
+        position: relative;
+        right: calc(50vw - 100% - 61px);
+        margin-bottom: 60px;
+    }
+
+    .right-img {
+        position: relative;
+        left: calc(50vw - 100% - 61px);
+        margin-top: 60px;
+    }
+
+    .contact-form {
+        margin: 0 10px;
+        padding: 20px;
+        max-width: 42vw;
+        background-color: white;
+        border-radius: 30px;
+        -moz-box-shadow: 0 0 20px #707070;
+        -webkit-box-shadow: 0 0 20px #707070;
+        box-shadow: 0 0 20px #707070;
+        position: absolute;
+        top: calc(25% - 60px);
+        right: calc(50vw - 10px);
+    }
+}
+
+@media (max-width: 576px) {
+
+    .navbar-brand {
+        max-width: 70%;
+    }
+
+    .about-us {
+        max-width: 80vw;
+        position: relative;
+        top: -100px;
+    }
+
+    .left-col, .right-col {
+        padding: 0 10px 0 10px;
+    }
+
+    .left-img {
+        position: relative;
+        right: calc(100vw - 100% - 10px);
+        margin-bottom: 20px;
+    }
+
+    .right-img {
+        position: relative;
+        left: calc(100vw - 100% - 10px);
+    }
+
+    .contact-form {
+        margin: 0 10px 50px 10px;
+        padding: 20px;
+        background-color: white;
+        border: solid #EBA341 2px;
+        border-radius: 30px;
+    }
+}
+
+.how-much {
+    border: solid #EBA341 2px;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 1.2rem;
+}
+
+.investment-input {
+    max-width: 150px;
+}
+
+.yield {
+    color: #EBA341;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.contact {
+    position: relative;
+}
+
+.footer {
+    padding: 25px;
+    font-size: 0.8rem;
+}
+
+.brand {
+    color: #EBA341;
+    font-weight: bold;
+}
