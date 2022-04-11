@@ -75,6 +75,10 @@ p {
 
 @media (min-width: 576px) {
 
+    .container {
+        margin: 0;
+    }
+
     .about-us {
         max-width: 70%;
         position: relative;
@@ -122,7 +126,7 @@ p {
     }
 }
 
-@media only screen and (max-device-width: 480px), (max-width: 576px) {
+@media (max-width: 576px) {
 
     .navbar-brand {
         max-width: 70%;
