@@ -4,14 +4,6 @@ body {
     overflow-x: hidden;
 }
 
-.logo {
-    max-width: 80%;
-}
-
-.navbar-light .navbar-brand, .navbar-light .navbar-nav .nav-link {
-    color: #EBA341;
-}
-
 h2 {
     color: #EBA341;
     text-align: center;
@@ -20,17 +12,25 @@ h2 {
     font-weight: bold;
 }
 
-.custom-heading {
-    margin-top: 0;
-    margin-bottom: 20px;
-}
-
 p {
     text-align: justify;
     text-justify: inter-word;
     text-indent: 2em;
     padding: 0;
     margin: 0 0 20px 0;
+}
+
+.logo {
+    max-width: 80%;
+}
+
+.navbar-light .navbar-brand, .navbar-light .navbar-nav .nav-link {
+    color: #EBA341;
+}
+
+.custom-heading {
+    margin-top: 0;
+    margin-bottom: 20px;
 }
 
 .white-text {
@@ -55,15 +55,15 @@ p {
     padding: 15px 35px;
 }
 
-.more-info-btn {
-    position: relative;
-    top: -50px;
-}
-
 .custom-btn:hover {
     color: white;
     background-color: #EBA341;
     border: solid #EBA341 2px;
+}
+
+.more-info-btn {
+    position: relative;
+    top: -50px;
 }
 
 @media (min-width: 576px) {
