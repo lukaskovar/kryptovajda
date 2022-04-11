@@ -73,7 +73,7 @@ p {
     border: solid #EBA341 2px;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 768px) {
 
     .about-us {
         max-width: 70%;
@@ -122,7 +122,7 @@ p {
     }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
 
     .navbar-brand {
         max-width: 70%;
