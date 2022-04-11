@@ -100,15 +100,17 @@ p {
     }
 
     .left-img {
+        margin: 0 0 60px 0;
+        padding: 0;
         position: relative;
         right: calc(50vw - 100% - 61px);
-        margin-bottom: 60px;
     }
 
     .right-img {
+        margin: 60px 0 0 0;
+        padding: 0;
         position: relative;
         left: calc(50vw - 100% - 61px);
-        margin-top: 60px;
     }
 
     .contact-form {
