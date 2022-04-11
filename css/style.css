@@ -87,12 +87,12 @@ p {
 
     .left-col {
         border-right: solid #EBA341 1px;
-        padding-right: 60px;
+        padding: 0 60px 0 0;
     }
 
     .right-col {
         border-left: solid #EBA341 1px;
-        padding-left: 60px;
+        padding: 0 0 0 60px;
     }
 
     .left-img {
