@@ -2,14 +2,12 @@
 only screen and (-webkit-min-device-pixel-ratio: 1.5),
 only screen and (-o-min-device-pixel-ratio: 3/2),
 only screen and (min--moz-device-pixel-ratio: 1.5),
-only screen and (min-device-pixel-ratio: 1.5){
+only screen and (min-device-pixel-ratio: 1.5) {
 
-  html,
-  body{
-    width:100%;
-    overflow-x:hidden;
-  }
-
+    html, body {
+        width: 100%;
+        overflow-x: hidden;
+    }
 }
 
 body {
@@ -21,16 +19,8 @@ body {
     max-width: 80%;
 }
 
-nav {
-    font-size: 1.2rem;
-}
-
 .navbar-light .navbar-brand, .navbar-light .navbar-nav .nav-link {
     color: #EBA341;
-}
-
-.navbar-toggler {
-    float: right;
 }
 
 h2 {
